@@ -45,27 +45,6 @@ export default function AppSider() {
                 />
                 </Card> 
       ))}
-
-        {/* <Card>
-          <Statistic
-            title="Idle"
-            value={9.3}
-            precision={2}
-            valueStyle={{ color: '#cf1322' }}
-            prefix={<ArrowDownOutlined />}
-            suffix="%"
-          />
-          <List 
-            style={{marginTop:'1rem'}}
-            size='small'
-            dataSource={data}
-            renderItem={(item) => (
-            <List.Item>
-            <Typography.Text mark>[ITEM]</Typography.Text> {item}
-            </List.Item>
-          )}
-          />
-        </Card> */}
   </Layout.Sider>
   )
 }

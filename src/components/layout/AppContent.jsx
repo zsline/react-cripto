@@ -3,9 +3,10 @@ import { Layout, Typography } from 'antd';
 import { useCrypto } from '../../context/crypto-context'
 import PortfolioChart from '../PortfolioChart';
 import AssetsTable from '../AssetsTable';
+
 const ContentStyle = {
     padding: 24, 
-    height: 'calc(100vh - 60px - 24px)',
+    minHeight: 'calc(100vh - 60px - 24px)',
     background: '#001529',
     color: '#a6dbfb',
     borderRadius: 8,
