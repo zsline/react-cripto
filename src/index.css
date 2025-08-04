@@ -1,0 +1,12 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ant-layout-sider {
+  /* flex: 0 0 auto !important; */
+  flex-grow: 1 !important;
+  max-width: 340px !important;
+  width: 25% !important;
+}
